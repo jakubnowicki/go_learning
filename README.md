@@ -1,6 +1,17 @@
-# Learn Go repo
+# Learn Go
 
-Implementation of a set of small programs in golang.
-List of programs: [here](https://levelup.gitconnected.com/21-python-mini-projects-with-codes-c4126e4131e4)
+This repository is an attempt to learn and practice Golang by writing of a set of small programs. Idea came from [this blogpost](https://levelup.gitconnected.com/21-python-mini-projects-with-codes-c4126e4131e4).
 
-Go mini tutorial: [here](https://medium.com/better-programming/go-4f365468dbd5)
+## List of programs
+
+1. [Dice roll simulator](./01_dice_roll_simulator/dice_roll.go) - create a program that will simulate the roll of a dice.
+2. [Rock, paper and scissors](./02_rock_paper_scissors/rock_paper_scissors.go) - create a command-line game where a user is given a chance to choose between rock, paper, and scissors and if the user wins the score is added, and at the end when the user finishes the game the score is shown to the user.
+3. [Random password generator](./03_random_password_generator/random_password_generator.go) - create a program that takes the length of the password and generates a random password of the same length.
+4. Mad lips generator - generate a random and unique story by adding the input given by the user.
+5. Guess the number - create a script that generates a random number between a range if the user guesses the number right in three chance then user wins otherwise user loss.
+6. ...
+
+## Resources
+
+* [Go documentation](https://golang.org/doc/)
+* [Go mini tutorial](https://medium.com/better-programming/go-4f365468dbd5)
