@@ -47,11 +47,22 @@ func search_array(array []string, value string) (int, bool) {
 }
 
 func main() {
+	player_score, computer_score := 0, 0
 	fmt.Println("Rock, Paper or Scissors?")
-	computer_answer := pick_value()
-	var player_answer string
-	fmt.Scanln(&player_answer)
-	player_answer = strings.ToLower(player_answer)
-	result, _, _ := check_result(player_answer, computer_answer)
-	fmt.Println(result)
+	for {
+		fmt.Println("Type your answer or exit to get final results and quit.")
+		computer_answer := pick_value()
+		var player_answer string
+		fmt.Scanln(&player_answer)
+		if player_answer == "exit" {
+			fmt.Printf("Player score: %d\n", player_score)
+			fmt.Printf("Computer score: %d\n", computer_score)
+			break
+		}
+		player_answer = strings.ToLower(player_answer)
+		result, player_result, computer_result := check_result(player_answer, computer_answer)
+		player_score = player_score + player_result
+		computer_score = computer_score + computer_result
+		fmt.Println(result)
+	}
 }
