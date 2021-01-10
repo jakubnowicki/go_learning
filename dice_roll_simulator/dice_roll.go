@@ -13,6 +13,11 @@ func roll_dice() int {
 }
 
 func main() {
-	var value = roll_dice()
-	fmt.Println(value)
+	fmt.Println("Press 1 to roll the dice or 0 to exit:")
+	var answer string
+	fmt.Scanln(&answer)
+	if answer == "1" {
+		var value = roll_dice()
+		fmt.Println(value)
+	}
 }
