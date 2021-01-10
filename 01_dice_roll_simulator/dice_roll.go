@@ -8,7 +8,7 @@ import (
 
 func roll_dice() int {
 	rand.Seed(time.Now().UnixNano())
-	var dice_value = rand.Intn(5) + 1
+	var dice_value = rand.Intn(6) + 1
 	return dice_value
 }
 
