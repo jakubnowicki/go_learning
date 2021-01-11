@@ -8,7 +8,7 @@ This repository is an attempt to learn and practice Golang by writing of a set o
 2. [Rock, paper and scissors](./02_rock_paper_scissors/rock_paper_scissors.go) - create a command-line game where a user is given a chance to choose between rock, paper, and scissors and if the user wins the score is added, and at the end when the user finishes the game the score is shown to the user.
 3. [Random password generator](./03_random_password_generator/random_password_generator.go) - create a program that takes the length of the password and generates a random password of the same length.
 4. [Mad lips generator](./04_mad_lips_generator/mad_lips_generator.go) - generate a random and unique story by adding the input given by the user.
-5. Guess the number - create a script that generates a random number between a range if the user guesses the number right in three chance then user wins otherwise user loss.
+5. [Guess the number](./05_guess_the_number/guess_the_number.go) - create a script that generates a random number between a range if the user guesses the number right in three chance then user wins otherwise user loss.
 6. ...
 
 ## Resources
