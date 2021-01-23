@@ -19,7 +19,9 @@ func getRandomElement(choices []string) string {
 }
 
 func main() {
-	file, err := os.Open("story_parts.txt")
+	fileName := os.Args[1]
+
+	file, err := os.Open(fileName)
 
 	if err != nil {
 		log.Fatal("failed to open")
