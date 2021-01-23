@@ -9,7 +9,7 @@ This repository is an attempt to learn and practice Golang by writing of a set o
 3. [Random password generator](./03_random_password_generator/random_password_generator.go) - create a program that takes the length of the password and generates a random password of the same length.
 4. [Mad lips generator](./04_mad_lips_generator/mad_lips_generator.go) - generate a random and unique story by adding the input given by the user.
 5. [Guess the number](./05_guess_the_number/guess_the_number.go) - create a script that generates a random number between a range if the user guesses the number right in three chance then user wins otherwise user loss.
-6. Story generator - generate a random story every time user runs the program.
+6. [Story generator](./06_story_generator/story_generator.go) - generate a random story every time user runs the program.
 7. Email slicer program - script that can fetch the username and domain name from the email.
 8. ...
 
